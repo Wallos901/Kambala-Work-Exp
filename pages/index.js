@@ -1,26 +1,17 @@
-import styled from "styled-components";
 import Layout from "../components/Layout";
-import Section from "../components/Section";
 import Divider from "../components/Divider";
-import Heading from "../components/Heading";
+import OldButtonsSection from "../components/old-buttons/OldButtonsSection";
+import YourButtonsSection from "../components/your-buttons/YourButtonsSection";
+import IdealButtonsSection from "../components/ideal-buttons/IdealButtonsSection";
 
 const Home = () => {
   return (
     <Layout>
-      <Section>
-        <Heading>Old Button</Heading>
-        <button>Hi</button>
-      </Section>
+      <OldButtonsSection />
       <Divider />
-      <Section>
-        <Heading>Your Button</Heading>
-        <button>Hi</button>
-      </Section>
+      <YourButtonsSection />
       <Divider />
-      <Section>
-        <Heading>Ideal Button</Heading>
-        <button>Hi</button>
-      </Section>
+      <IdealButtonsSection />
     </Layout>
   );
 };

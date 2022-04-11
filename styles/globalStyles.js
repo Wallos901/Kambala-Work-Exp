@@ -2,10 +2,10 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   :root {
-    font-family: "Montserrat", Arial, serif;
+    font-family: "Montserrat", Arial, sans-serif;
   }
   body {
-    background-color: #263238;
+    background-color: #343434;
     margin: 0;
     padding: 0;
   }

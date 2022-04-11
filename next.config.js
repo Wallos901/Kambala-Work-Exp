@@ -1,8 +1,9 @@
-const options = {
+module.exports = {
   reactStrictMode: true,
   images: {
     domains: [],
   },
+  compiler: {
+    styledComponents: true,
+  },
 };
-
-module.exports = options;
