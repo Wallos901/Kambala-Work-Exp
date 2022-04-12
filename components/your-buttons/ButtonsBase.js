@@ -17,6 +17,7 @@ export const ActionButton = css`
   ${up("xxlarge")} {
     font-size: 20px;
     padding: 16px 24px;
+    margin: 20px;
   }
 `;
 
